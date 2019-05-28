@@ -1,0 +1,78 @@
+.top-bar{
+  height:5px;
+  background:#BC2100;
+  margin-bottom:0px;
+}
+
+.card{
+  margin-left: 3px;
+  margin-right:3px;
+}
+
+.below-bar{
+  height:5px;
+  background:#BC2100;
+  margin-bottom:3px;
+}
+
+.register{
+  background-color: #fffff;
+  border: 1.1px solid #4CAF50;
+  margin-left: 4px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 6px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #4CAF50;
+}
+
+.register:hover{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  color: white;
+  border: 1.1px solid #4CAF50;
+  border-radius: 5px;
+  margin-left: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: 16px
+}
+
+.jumbotron{
+
+  background: url(../images/ny.jpg) no-repeat 50% 50%;
+  height: 350px;
+  padding: 0;
+}
+
+.jumbotron [class*="col-"]{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+  overflow:auto;
+  height:350px;
+}
+
+.jumbotron-content{
+  color:white;
+}
+
+.restc {
+  max-width:966px;
+  margin:auto;
+  border:3px solid #4CAF50;
+  border-radius: 20px;
+  position: relative;
+  left:auto;
+  right: auto;
+}
